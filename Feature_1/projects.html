@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Projects - Cesar Cervera</title>
+  </head>
+  <body>
+    <!-- Nav-->
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="/Feature_1/index.html">Home</a></li>
+        <li><a href="/Feature_1/about.html">About</a></li>
+        <li><a href="/Feature_1/research.html">Research</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h1>Projects</h1>
+
+      <!-- Project 1 -->
+      <article>
+        <h2>Predictive Budgeting & Overdraft Risk Modeling</h2>
+        <details>
+          <summary>Abstract</summary>
+          <p>
+            Financial stress is a major challenge for college students and is
+            closely linked to academic outcomes and mental well-being. One of
+            the most harmful consequences of financial instability is
+            overdrafting, which disproportionately affects young adults with
+            limited income stability and financial literacy. This project
+            investigates whether early financial behavior can be used to predict
+            future overdraft risk using a longitudinal dataset of 1,360
+            individuals spanning 24 months. We evaluate Logistic Regression,
+            Random Forest, and Bidirectional LSTM models and find that a
+            well-regularized Logistic Regression model outperforms more complex
+            temporal approaches, achieving an F1-score of 94.12% and a ROC-AUC
+            of 0.9976.
+          </p>
+        </details>
+        <ul>
+          <li>
+            Constructed and cleaned a longitudinal financial dataset spanning 24
+            months
+          </li>
+          <li>
+            Engineered statistical features for early overdraft risk prediction
+          </li>
+          <li>
+            Conducted model evaluation and analyzed comparative performance
+            results
+          </li>
+        </ul>
+        <p>
+          <strong>Key result:</strong> Logistic Regression achieved F1 = 0.94
+          and ROC-AUC = 0.9976
+        </p>
+      </article>
+
+      <!-- Project 2 -->
+      <article>
+        <h2>
+          Evaluating Retrieval-Augmented Generation for Fake News Detection
+        </h2>
+        <details>
+          <summary>Abstract</summary>
+          <p>
+            With the growing prevalence of AI-generated content and bias in news
+            reporting, fake news has become increasingly harmful to public
+            discourse. This project investigates whether RAG improves large
+            language model performance on fake news detection tasks using the
+            Snopes benchmark dataset and GPT-4o. Results reveal a tradeoff:
+            while RAG significantly improves validation of true claims,
+            performance on false claims degrades due to confirmation bias
+            introduced by search results.
+          </p>
+        </details>
+
+        <ul>
+          <li>
+            Prepared and cleaned the Snopes benchmark dataset for evaluation
+          </li>
+          <li>
+            Conducted comparative analysis of zero-shot vs RAG-enhanced model
+            outputs
+          </li>
+          <li>
+            Analyzed performance tradeoffs and identified confirmation bias
+            effects
+          </li>
+        </ul>
+        <p>
+          <strong>Key finding:</strong> RAG improves validation of true claims
+          but degrades fake-claim detection due to retrieval bias
+        </p>
+      </article>
+    </section>
+
+    <!-- Footer -->
+    <footer>&copy; 2026 Cesar Cervera</footer>
+  </body>
+</html>
